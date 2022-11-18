@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="country_item_margin_horizontal">20dp</dimen>
+    <dimen name="country_item_border">2dp</dimen>
+    <dimen name="country_item_padding_vertical">15dp</dimen>
+    <dimen name="country_item_spacing">8dp</dimen>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Countries App</string>
+    <string name="greeting">Hello %s!</string>
+    <string name="countries">Countries</string>
+    <string name="countries_screen_title">Countries</string>
+    <string name="country_detail_screen_title">Country Details - %s</string>
+    <string name="country_detail_screen_label_1">Capital:</string>
+    <string name="country_detail_screen_label_2">Population:</string>
+    <string name="country_detail_screen_label_3">Area:</string>
+    <string name="country_detail_screen_label_4">Region:</string>
+    <string name="country_detail_screen_label_5">SubRegion:</string>
+    <string name="country_detail_screen_map_snippet">Marker in %s</string>
+
+</resources>
