@@ -4,6 +4,7 @@ import com.edwin.countriesapp.repository.restcountries.model.GenericErrorRespons
 
 data class CountryDetailState(
 
+    val name: String = "",
     val capital: String = "",
     val population: String = "",
     val area: String = "",

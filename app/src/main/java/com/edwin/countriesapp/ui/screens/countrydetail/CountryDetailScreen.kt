@@ -48,7 +48,7 @@ fun CountryDetailScreen(
         Column(modifier = Modifier
             .fillMaxSize()
             .padding(10.dp)) {
-            DetailsHeader(countryName = countryName, flagUrl = uiState.flag)
+            DetailsHeader(countryName = uiState.name, flagUrl = uiState.flag)
             Spacer(modifier = Modifier.height(30.dp))
             DetailsRow(
                 label = stringResource(id = R.string.country_detail_screen_label_1),
@@ -70,7 +70,7 @@ fun CountryDetailScreen(
                 label = stringResource(id = R.string.country_detail_screen_label_5),
                 value = uiState.subRegion
             )
-            DetailsMap(countryName, uiState.coordinates)
+            DetailsMap(uiState.name, uiState.coordinates)
         }
 
         uiState.errorAlert?.apply {

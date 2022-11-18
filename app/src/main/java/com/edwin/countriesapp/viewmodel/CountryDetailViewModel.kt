@@ -27,6 +27,7 @@ class CountryDetailViewModel @Inject constructor(private val countriesRepository
                     response.response.first().apply {
                         _uiState.value =
                             _uiState.value.copy(
+                                name = name ?: "--",
                                 capital = capital ?: "--",
                                 population = "${population ?: "--"}",
                                 area = "${area ?: "--"}",
